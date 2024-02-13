@@ -8,21 +8,39 @@
     <body>
 
         <div id="home" class="tab-content">
-        <p>Choose a genre to get started</p>
+        <p class="welcome">Choose a genre to get started</p>
         <button id="btns" onclick="openTab('hip-hop')">Hip-Hop</button>
+        <button id="btns2" onclick="openTab('Alternative')">Alternative</button>
     </div>
 
         <div id="hip-hop" class="tab-content" style="display: none;">
         <div class="album-container">
-            <img src="media/astro.jpg" height="150px" width="150px">
+            <img id="imageContainer2" src="media/albums/astro.jpg" height="150px" width="150px">
         </div>
         <button class="add-stars"><img src="media/star.png" height="50px" width="50px">
         </button>
         <button class="minus-stars"><img src="media/minus.png" height="50px" width="50px"></button>
         <p class="rating">Rating: <span id="value">0</span></p>
         <div id="stars-div"><span id="stars"></span></div>
-        <button>next</button>
+        <button onclick="displayRandomImage2()" id="next">next</button>
         </div>
+
+        <div id="Alternative" class="tab-content" style="display: none;">
+            <div class="album-container">
+                <img id="imageContainer" src="media/albums/TV_Girl_-_French_Exit.png" height="150px" width="150px">
+            </div>
+            <div id="btn-container">
+            <button class="add-stars"><img src="media/star.png" height="50px" width="50px">
+            </button>
+            <button class="minus-stars"><img src="media/minus.png" height="50px" width="50px"></button>
+        </div>
+            <p class="rating">Rating: <span id="value">0</span></p>
+            <div id="stars-div"><span id="stars"></span></div>
+           
+            <button onclick="displayRandomImage()" id="next">next</button>
+        
+        
+            </div>
 
     </body>
     <script src="am_i_stupid.js"></script>

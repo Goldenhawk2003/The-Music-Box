@@ -3,44 +3,104 @@ html{
 }
 
 .add-stars{
-    position: absolute;
-    top: 200px;
-    left: 500px;
+    
     max-width: 150px;
     max-width: 150px;
     border: none;
     background-color: transparent;
 }
 .rating{
-    position: absolute;
-    top: 250px;
-    left: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
 }
 
 #stars{
-    position: absolute;
-    top: 300px;
-    left: 500px;
+    position: relative;
+    
+}
+#stars-div{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    border: 3px solid ;
 }
 
 .minus-stars{
-    position:absolute;
-    top: 205px;
-    left: 400px;
+    
     border: none;
     background-color: transparent;
+}#btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
 }
 
 .album-container{
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    border: 4px solid purple;
+    width:fit-content;
+    margin-left: 55px;;
 }
 
 #btns{
     background-color: violet;
     height: 100px;
     width: 100px;
-    display: flex;
+    margin-top: 10;
     align-self: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffff;
+}
+#btns2{
+    background-color: rgb(200, 123, 15);
+    height: 100px;
+    width: 100px;
+    margin-top: 10;
+    align-self: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffff;
+}
+
+#home{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.welcome{
+    font-size: 25px;
+}
+
+#next{
+    height: 35px; /* Adjust the height as needed */
+    width:  250px; /* Adjust the width as needed */
+    color: #ffffff; /* Correct hex code for white */
+    background-color: black; /* Button background */
+    display: flex;
+    justify-content: center; /* Center text horizontally */
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#image-container{
+   
 }
