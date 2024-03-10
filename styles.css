@@ -57,6 +57,7 @@ html{
     font-size: 12px;
     font-weight: bold;
     color: #ffff;
+    display: flexbox
 }
 #btns2{
     background-color: rgb(200, 123, 15);
